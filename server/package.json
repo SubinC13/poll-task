@@ -1,0 +1,24 @@
+{
+  "name": "quickpoll-server",
+  "version": "1.0.0",
+  "description": "Backend server for QuickPoll application",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon --watch src --ext js --ignore 'src/**/*.test.js' src/server.js"
+  },
+  "keywords": ["poll", "voting", "real-time"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1",
+    "cors": "^2.8.5",
+    "nanoid": "^5.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
+
